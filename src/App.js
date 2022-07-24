@@ -28,7 +28,8 @@ function App() {
     <div>
       <IdCard client = {clients[0]}/>
       <IdCard client = {clients[1]}/>
-      <Greetings />
+      <Greetings lang="de">Ludwig</Greetings>
+      <Greetings lang="fr">François</Greetings>
     </div>
   );
 }
