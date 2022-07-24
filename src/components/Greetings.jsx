@@ -1,26 +1,26 @@
 import React from "react";
 
-const Greetings = ({lang, children}) => {
+const Greetings = (props) => {
 
-    let greeting = 'Hello';
-    switch(lang){
+    let greeting;
+    switch(props.lang){
         case 'es':
-            lang = 'Hola';
+            greeting = 'Hola';
             break;
         case 'de':
-            lang = 'Hallo';
+            greeting = 'Hallo';
             break;
         case 'fr':
-            lang = 'Bonjour';
+            greeting = 'Bonjour';
             break;
         default: 
-            lang = 'Hello'
+            greeting = 'Hello'
             break;
     };
 
     return (
         <div>
-            <h2>{greeting + ' ' + children}!</h2>
+            <h2>{greeting + ' ' + props.children}!</h2>
         </div>
     )
 }
