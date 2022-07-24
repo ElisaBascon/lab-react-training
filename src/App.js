@@ -3,6 +3,7 @@ import IdCard from './components/IdCard';
 import Greetings from './components/Greetings';
 import Random from './components/Random';
 import BoxColor from './components/BoxColor';
+import CreditCard from './components/CreditCard';
 
 function App() {
 
