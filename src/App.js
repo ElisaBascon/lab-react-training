@@ -1,5 +1,6 @@
 import './App.css';
 import IdCard from './components/IdCard';
+import Greetings from './components/Greetings';
 
 function App() {
 
@@ -22,10 +23,12 @@ function App() {
     }
   ]
 
+
   return (
     <div>
       <IdCard client = {clients[0]}/>
       <IdCard client = {clients[1]}/>
+      <Greetings />
     </div>
   );
 }

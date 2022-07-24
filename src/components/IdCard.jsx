@@ -5,12 +5,12 @@ export default function IdCard (props) {
     console.log(props)
     return (
         <div className="IdCard-style">
-            <img src={picture}></img>
+            <img src={picture} alt="text"></img>
             <p>First name: {firstName}</p>
             <p>Last name: {lastName}</p>
             <p>Gender: {gender}</p>
-            <p>{height}m</p>
-            <p>First name: {birth}</p>
+            <p>Height: {height / 100}m</p>
+            <p>Birth: {birth}</p>
         </div>
     )
 }
