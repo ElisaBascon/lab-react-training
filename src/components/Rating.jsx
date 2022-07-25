@@ -19,7 +19,7 @@ export default function Rating (props) {
 
     return (
         <div>
-            <h2>{stars}</h2>
+            <h1>{stars}</h1>
         </div>
     )
 }

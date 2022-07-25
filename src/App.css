@@ -47,3 +47,9 @@ div .creditCard {
   border-radius: 10px;
   padding: 30px;
 }
+
+.driveCardImg {
+  border-radius: 100%;
+  width: 150px;
+}
+
