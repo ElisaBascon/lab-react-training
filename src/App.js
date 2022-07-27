@@ -30,8 +30,8 @@ function App() {
 
   return (
     <div>
-      <IdCard client = {clients[0]}/>
-      <IdCard client = {clients[1]}/>
+        <IdCard client = {clients[0]}/>
+        <IdCard client = {clients[1]}/>
       <Greetings lang="de">Ludwig</Greetings>
       <Greetings lang="fr">François</Greetings>
       <Random min={1} max={6}/>

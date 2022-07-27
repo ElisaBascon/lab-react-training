@@ -19,9 +19,11 @@ const Greetings = (props) => {
     };
 
     return (
-        <div>
-            <h2>{greeting + ' ' + props.children}!</h2>
-        </div>
+            <div className="greetingCardStyle">
+                <div className="greetingCardInfo">
+                    <h2>{greeting + ' ' + props.children}!</h2>
+                </div>
+            </div>
     )
 }
 
