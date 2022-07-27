@@ -101,15 +101,57 @@ div .creditCard {
   padding-bottom: 1px;
   margin: 20px;
   padding: 25px;
+}
 
+div .creditCardImg {
+  display: flex;
+  justify-content: end;
+  padding: 15px;
 }
 
 div .creditCard img{
   height: 15px;
 }
 
+.creditCardNumber {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  padding: 5px;
+}
+
+
+/*Rating*/
+
+.ratingCard {
+  display: flex;
+  margin: 30px;
+  font-size: 40px;
+}
+
+/*DriveCard*/
+
+.driveCard {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #465fb6;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 20px;
+}
+
 .driveCardImg {
-  border-radius: 100%;
+  height: 150px;
   width: 150px;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.driveCardText {
+  color: white;
+  text-align: left;
+  margin-left: 10px;
 }
 

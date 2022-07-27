@@ -71,13 +71,19 @@ function App() {
         bgColor="#ddbb55"
         color="white" 
       />
-
-      <Rating>0</Rating>
-      <Rating>1.49</Rating>
-      <Rating>1.5</Rating>
-      <Rating>3</Rating>
-      <Rating>4</Rating>
-      <Rating>5</Rating>
+      <div className='ratingCard' >
+        <Rating>0</Rating>
+        <br></br>
+        <Rating>1.49</Rating>
+        <br></br>
+        <Rating>1.5</Rating>
+        <br></br>
+        <Rating>3</Rating>
+        <br></br>
+        <Rating>4</Rating>
+        <br></br>
+        <Rating>5</Rating>
+      </div>
 
       <DriverCard
         name="Travis Kalanick"
