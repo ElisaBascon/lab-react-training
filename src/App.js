@@ -1,4 +1,5 @@
 import './App.css';
+import React, { useState } from "react";
 import IdCard from './components/IdCard';
 import Greetings from './components/Greetings';
 import Random from './components/Random';
@@ -7,6 +8,7 @@ import CreditCard from './components/CreditCard';
 import Rating from './components/Rating';
 import DriverCard from './components/DriverCard';
 import LikeButton from './components/LikeButton';
+import ClickablePicture from './components/ClickablePicture';
 
 function App() {
 
@@ -28,6 +30,15 @@ function App() {
       picture: "https://randomuser.me/api/portraits/women/44.jpg"
     }
   ]
+
+    const [active, setImage] = useState(false);
+
+    const handleChangeActive = () => {
+      setImage((previousImage) => {
+        return !previousImage;
+      });
+    };
+
 
   return (
     <div>
@@ -107,7 +118,9 @@ function App() {
       />
 
       <LikeButton />
-
+      
+      <ClickablePicture active={active} handleChangeActive={handleChangeActive}/>
+      
     </div>
   );
 }
