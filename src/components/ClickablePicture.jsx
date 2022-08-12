@@ -11,14 +11,14 @@ function ClickablePicture({ active, handleChangeActive }) {
         {active ? (
           <img
             className="glasses"
-            src={WhitGlasses}
+            src={NoGlasses}
             alt="glasses"
             onClick={() => handleChangeActive()}
           />
         ) : (
           <img
             className="glasses"
-            src={NoGlasses}
+            src={WhitGlasses}
             alt="no glasses"
             onClick={() => handleChangeActive()}
           />

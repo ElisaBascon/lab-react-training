@@ -168,3 +168,10 @@ img.dice {
   height: 250px;
   margin: 30px;
 }
+
+.carousel {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  margin: 30px;
+}
