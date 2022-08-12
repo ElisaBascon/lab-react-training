@@ -20,7 +20,7 @@ export default function Carousel({ images }) {
     return (
         <div className="carousel">
             <button className="carouselButton" onClick={handleLeft}>← Left</button>
-            <img  src={image} style={{ width:'150px'}}/>
+            <img src={image} style={{ width:'150px'}} alt="carousel" />
             <button className="carouselButton" onClick={handleRight}>Right →</button>
         </div>
     )
