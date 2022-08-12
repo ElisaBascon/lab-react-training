@@ -157,6 +157,7 @@ div .creditCard img{
 
 .likebutton {
   margin: 30px;
+  padding: 5px;
 }
 
 img.glasses {
@@ -172,6 +173,11 @@ img.dice {
 .carousel {
   display: flex;
   align-items: center;
-  padding: 20px;
   margin: 30px;
+}
+
+.carouselButton {
+  padding: 5px;
+  margin: 10px;
+  color: #465fb6;
 }
