@@ -8,11 +8,11 @@ export default function IdCard (props) {
             <div className="idCardStyle" >
                 <img src={picture} alt="text"></img>
                 <div className="idCardInfo" >
-                    <p><strong>First name: </strong>{firstName}</p>
-                    <p><strong>Last name: </strong>{lastName}</p>
-                    <p><strong>Gender: </strong>{gender}</p>
-                    <p><strong>Height: </strong>{height / 100}m</p>
-                    <p><strong>Birth: </strong>{birth}</p>
+                    <p><b>First name: </b>{firstName}</p>
+                    <p><b>Last name: </b>{lastName}</p>
+                    <p><b>Gender: </b>{gender}</p>
+                    <p><b>Height: </b>{height / 100}m</p>
+                    <p><b>Birth: </b>{birth}</p>
                 </div>
             </div>
         </div>
